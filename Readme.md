@@ -1,12 +1,4 @@
-﻿**CS 579: Online Social Network Analysis** 
-
-Project -1: Social Media Data Analysis 
-
-**Submitted by:** Aman Agrawal (A20446346) Disha Sharma (A20443440) 
-
-**Platform Chosen:** Twitter 
-
-**Objective:** 
+﻿**Objective:** 
 
 The objective of the project is to crawl social media data for a subset of its users (100-500) and report analysis on the extracted data. 
 
@@ -63,7 +55,8 @@ For the Directed Graph of the network:
 ![](OSNA%20Project%20Report.001.png)
 
 - The above directed graph is obtained. Each edge from node A to node B implies that user A follows user B on twitter. 
-- For the ease of visualization, size of each node is set to be proportional to the indegree of the node and appropriately color mapped. 
+- For the ease of visualization, size of each node is set to be proportional to the indegree of the node and appropriately color mapped. 
+
 
 **Degree Distribution** 
 
@@ -94,7 +87,8 @@ For the undirected graph of the network:
 ![](OSNA%20Project%20Report.003.png)
 
 - The above undirected graph is obtained. Each edge from node A to node B implies that both the users follow each other on twitter. 
-- For the ease of visualization, size of each node is set to be proportional to the degree of the node and appropriately color mapped. 
+- For the ease of visualization, size of each node is set to be proportional to the degree of the node and appropriately color mapped. 
+
 
 **Degree Distribution** 
 
