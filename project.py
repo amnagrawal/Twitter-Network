@@ -3,11 +3,8 @@ import twitter
 from graph_utils import buildDirectedGraph, loadGraph
 from network_measures import degree_distribution, draw_graph, centrality_measures
 
-api = twitter.Api(consumer_key="vSsCY8ZdyOKqI2nBVpLElBKDD",
-                  consumer_secret="xHWGtoCllCtc7lb5GkCAhJVU4q7TGN8TBtZZOEFqK1Rez8LQ1t",
-                  access_token_key="806043476831809537-F2GoVNl8ngMXD0z0fdsvCSJXxolZhiY",
-                  access_token_secret="aupIcZVfqSx9xyWYaa2Kyu7PJmfnpdah8G0Urgjwtz1U1"
-                  )
+api = twitter.Api('''pleaase provide api keys''')
+
 api.sleep_on_rate_limit = True
 
 saved_graph_file = "./twitter_directed_graph"
